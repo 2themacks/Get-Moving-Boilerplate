@@ -1,0 +1,25 @@
+app- dist
+ /js
+ /css
+
+src- dev
+  /javascript folder
+    scripts.js
+  /scss
+    /styles.scss
+    /partials
+      variables
+      typography
+      normalize
+      base.css
+      under 400
+      under 768
+      under 1020
+
+
+.gitignore- node modules, app/dist
+gulpfile.js
+index.html at root level or in src/dev that compiles to app/dist
+package.json
+
+browser-sync, autoprefixer, gulp-sass, normalize or reset.css

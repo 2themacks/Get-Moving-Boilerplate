@@ -1,0 +1,30 @@
+@import 'src/styles/scss/partials/reset';
+@import 'src/styles/scss/partials/variables';
+@import 'src/styles/scss/partials/base';
+@import 'src/styles/scss/partials/under400';
+@import 'src/styles/scss/partials/under768';
+@import 'src/styles/scss/partials/under1020';
+
+body {
+ background-color: $bgcolor;
+ display: flex;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $Heading-font;
+  color: white;
+  border: solid 1px black;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+p, a, ul, ol, li {
+  font-family: $Paragraph-font
+}
+
+a {
+  text-decoration: none;
+}
